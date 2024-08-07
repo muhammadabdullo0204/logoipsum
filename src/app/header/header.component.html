@@ -1,0 +1,45 @@
+<div class="navbar">
+  <div class="nav-logo">
+    <a href="#">
+      <img width="200px" height="41px" src="assets/Logo Color.svg" alt="Logo">
+    </a>
+    
+  </div>
+  <div class="nav-items">
+      <ul>
+          <li><a href="#navbar">Home</a></li>
+          <li><a href="#main-information-2">Features</a></li>
+          <li><a href="#main-information-3">Pricing</a></li>
+          <li><a href="#footer">Blog</a></li>
+
+      </ul>
+  </div>
+  <div class="nav-button">
+
+        <button class="loggin-btn">
+          Get Started
+      </button>
+  
+  </div>
+  <div id="hamburger-menu" (click)="toggleMobileMenu()">&#9776;</div>
+</div>
+
+<div id="mobile-menu" [ngClass]="{'show': isMobileMenuVisible}">
+  <div class="mobile-nav-items">
+      <ul>
+        <li><a href="#navbar">Home</a></li>
+        <li><a href="#main-information-2">Features</a></li>
+        <li><a href="#main-information-3">Pricing</a></li>
+        <li><a href="#footer">Blog</a></li>
+      </ul>
+  </div>
+  <div class="mobile-nav-button">
+   
+         <button class="loggin-btn">
+          Get Started
+      </button>
+
+  </div>
+  <div id="hamburger-cross"  (click)="toggleMobileMenu()">&#10006;
+  </div>
+</div>

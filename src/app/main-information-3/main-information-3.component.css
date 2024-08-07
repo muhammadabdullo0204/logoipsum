@@ -1,0 +1,359 @@
+@media only screen and (max-width: 1400px) {
+    .container {
+
+        margin-top: 250px;
+    }
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+
+}
+
+.mini-container {
+    width: 1646px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.text-box h1 {
+    font-size: 60px;
+
+
+}
+
+.text-box {
+    width: 553px;
+}
+
+.button-box {
+    width: 350px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.button-box button:nth-child(1) {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 160px;
+    height: 55px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    
+    transition: color 0.5s;
+    z-index: 1;
+    background-color: var(--color);
+    font-size: 17px;
+    
+    font-weight: 500;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .button-box button:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #F7F7FB;
+    height: 150px;
+    width: 200px;
+        /* border-radius: 50%; */
+
+  }
+  
+  .button-box button:nth-child(1):hover {
+    color: var(--color);
+  }
+  
+  .button-box button:nth-child(1)::before {
+    bottom: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .button-box button:nth-child(1):hover::before {
+    bottom: -30px;
+    left: -30px;
+  }
+  
+  .button-box button:nth-child(1):active::before {
+    background: #F7F7FB;
+    transition: background 0s;
+  }
+
+
+  
+  .button-box button:nth-child(2) {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 160px;
+    height: 55px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    
+    z-index: 1;
+    font-size: 17px;
+   
+    font-weight: 500;
+    color: var(--color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .button-box button:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    /* border-radius: 50%; */
+  }
+  
+  .button-box button:nth-child(2):hover {
+    color: #fff;
+  }
+  
+  .button-box button:nth-child(2)::before {
+    bottom: 100%;
+    right: 100%;
+    transition: all 0.7s;
+  }
+  
+  .button-box button:nth-child(2):hover::before {
+    bottom: -30px;
+    right: -30px;
+  }
+  
+  .button-box button:nth-child(2):active::before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }
+
+
+
+  .container-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+  }
+
+
+
+.mini-container-2{
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.div-box,
+.div-box-3{
+width: 330px;
+height: 441px;
+background-color: #F8F8F8;
+text-align: center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+gap: 10px;
+transition: all ease .3s ;
+
+}
+.div-box p{
+    color: #696871;
+}
+.div-box h1,
+.div-box-3 h1{
+    font-size: 56px;
+}
+
+.div-box button,
+.div-box-3 button{
+    width: 285px;
+    height: 60px;
+    color: #5454D4;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all ease .3s ;
+}
+.div-box button:hover,
+.div-box-3 button:hover{
+    background-color: #FF7143;
+    transform: scale(.95);
+    color: #fff;
+
+}
+.div-box:hover, 
+.div-box-3:hover,
+.div-box-2:hover{
+  transform: scale(1.05);
+}
+
+
+.div-box-2{
+    width: 375px;
+    height: 473px;
+    background-color: #FF7143;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    color: #fff;
+    transition: all ease .3s ;
+    
+    }
+    .div-box-2 p{
+        color: #fff;
+    }
+    .div-box-2 h1{
+        font-size: 56px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+      
+    }
+    .div-box-2 h1 p{
+        font-size: 20px;
+    }
+    .div-box-3 h1{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+    }
+    .div-box-3 h1 p{
+
+      font-size: 20px;
+
+  }
+
+
+    .div-box-2 button{
+        width: 285px;
+        height: 60px;
+        color: #5454D4;
+        font-size: 17px;
+        border-radius: 15px;
+        color: #fff;
+        background-color: #9F3919;
+        cursor: pointer;
+        transition: all ease .3s ;
+    }
+    .div-box-2 button:hover{
+        background-color: #fff;
+        transform: scale(.90);
+        color: black;
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    
+      .mini-container{
+        gap: 50px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+      }
+      .mini-container-2{
+        flex-direction: column;
+        gap: 50px;
+
+      }
+    }
+    
+
+    @media only screen and  (max-width: 480px) {
+
+      .mini-container{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+      }
+   
+    
+      .text-box {
+        width: 400px;
+    }
+    .text-box h1{
+      font-size: 30px;
+    }
+
+
+    .div-box{
+      width: 300px;
+    }
+    .div-box-2{
+      width: 350px;
+    }
+    .div-box button,
+.div-box-3 button,
+.div-box-2 button{
+    width: 255px;
+;
+}
+
+      
+    }
+    
